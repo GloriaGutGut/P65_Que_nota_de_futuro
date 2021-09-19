@@ -106,18 +106,28 @@ header{
 .contadorVisitas{
     padding-top: 50px;
 }
+.services-section,
 .news-section,
 .team-section {
+    padding-top: 500px;
+    margin-top: -500px;
     display: flex;
     margin-bottom: 20px;
+}
+.services-info {
+    padding: 20px;
+    text-align: center;
+}
+.services-info__imagen {
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .team-info {
     width: 25%;
     padding: 15px;
 }
 .news-section {
-    padding-top: 500px;
-    margin-top: -500px;
     flex-wrap: wrap;
 }
 .news-info {
