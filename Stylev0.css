@@ -1,10 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif, Segoe UI;
+}
 h1{
     color:rgb(255, 255, 255);
     font-size: 26px;
 }
 body{
-    background-color: #eee;
-    font-family: Verdana; 
+    background-color: rgb(252, 242, 186);
+    max-width: 1500px;
+    min-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #222222;
 }
 p{
     font-size: 18px;
@@ -13,31 +23,68 @@ a:link, a:visited, a:hover{
     color:#000;
     font-size: 16px;
 }
-#contenedor{
-    margin: 0;
-    width: 1745px;
-    height: XXpx;
+.header-section {
+    max-width: 1500px;
+    min-width: 375px;
 }
-#cabecera{
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
     color: #fff;
     background-color: #000;
-    padding: 10px;
-    text-align: center;
-    font-style: oblique;
-    position: top; 
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-#menu{
-    background-color: rgb(252, 182, 5);
-    float:left;
-    position: left;
-    height: 1200px;
     padding: 12px;
-    width: 200px;
-    top: 337px;
-    left: 0; 
+    position: fixed; 
+   }
+.banner {
+    width: 100%;
+}
+.banner>img {
+    width: 100%;
+    height: 150px;
+    max-width: 1500px;
+    object-fit: cover;
+}
+.site-title {
+    width: 30%;
+    padding: 50px 0;
+}
+.logo-container {
+    width: 30px;
+    padding: 30px 0;
+    
+}
+.logo-container__site-logo {
+    height: 80px;
+    vertical-align: middle;
+}
+.nav-list{
+    box-sizing: border-box;
+    color: rgb(252, 182, 5);
+    float:center;
+    height: 100px;
+    width: 500px;
+    top: 250px;
+    padding: 50px 0;
+    list-style-type: none;
+    text-align: center;
+    position: center;
+    font-weight: bold;
+}
+.site-nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.site-nav>a {
+    color: inherit;
+    text-decoration: none;
+}
+.site-nav>a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 #cuerpo{
     background-color: rgb(252, 242, 186);
