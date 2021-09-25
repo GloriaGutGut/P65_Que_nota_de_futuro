@@ -9,3 +9,4 @@ Estado 4: Modificación de la sección Equipo, a cargo de Cielo Rueda.
 Estado 5: Modificación del Footer, a cargo de Gloria G. (inicialmente asignado a Gloria Martínez.)
 Estado 6: Modificación sección Noticias, a cargo de Gislena Gil.
 Estado 7: Modificación sección servicios, a cargo de Ana Giraldo. Y diseño de páginas base y vinculos a las páginas del Sprint 2, a cargo de todas. 
+Estado 8: actualización de la página principal a bootstrap, a cargo de Gloria Gutiérrez.
