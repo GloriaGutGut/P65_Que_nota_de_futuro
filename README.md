@@ -12,3 +12,4 @@ Estado 7: Modificación sección servicios, a cargo de Ana Giraldo. Y diseño de
 Estado 8: Actualización de la página principal a bootstrap, a cargo de Gloria Gutiérrez.
 Estado 9: Interfaz gráfica rehecha luego que Git presentara problema a los archivos y los desconfigurara, página princial nueva indexx.html
 Estado 10: Se eliminaron las fotos que estaban sueltas y repetidas en la carpeta img
+Estado 11: por organización de la carpeta los archivos se estan reemplazando por carpetas.rar que los contienen.
